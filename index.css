@@ -1,0 +1,54 @@
+#bod {
+	position: absolute;
+	z-index: 2;
+
+	margin-left: calc(100% - 82%);
+	margin-top: 5%
+}
+
+/* 大萌字 */
+#big-moe {
+	font-size: 80px;
+	font-family: Arial;
+	text-align: center;
+
+	margin-top: 100px;
+}
+/* 一行大字 */
+#moeForWorld {
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+	letter-spacing: 5px;
+}
+/* Moe */
+#moe {
+	font-weight: bold;
+}
+/* 进入moe的世界 */
+#enterMoe {
+	
+}
+/* 有逼格的毛玻璃 */
+#glass {
+	height: 500px;
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.76);
+	display: block;
+	margin-left: calc(100% - 83%);
+	box-shadow: 5px 5px 2px gray;
+	z-index: 1;
+
+	position: absolute;
+	top: 10%;
+
+	filter: alpha(0);
+	filter: blur(5px);
+
+	border: 10px 10px 10px 10px;
+	border-color: solid white;
+}
+
+body {
+	background-image: url(image/moe.jpg);
+}
